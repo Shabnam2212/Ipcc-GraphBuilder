@@ -6,7 +6,7 @@ from graphviz import Digraph
 class GraphVizBuilder:
     """
     A modular class for creating and rendering Graphviz diagrams in SVG format.
-    Includes default IPCC and AR6 WGII graphs but allows users to create custom graphs.
+    Includes default IPCC and AR6 WGI graphs but allows users to create custom graphs.
     """
 
     def __init__(self, name="CustomGraph", output_format="svg", rankdir="TB"):
