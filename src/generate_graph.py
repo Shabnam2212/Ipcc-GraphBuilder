@@ -20,7 +20,7 @@ class GraphVizBuilder:
         """
         self.graph = Digraph(name, format=output_format)
         self.graph.attr(rankdir=rankdir)
-        self.graph.attr("node", shape="ellipse", style="filled", color="lightgrey")
+        self.graph.attr("node", shape="rectangle", style="filled", color="lightgrey")
 
     def add_node(self, node_id, label, url=None, color=None):
         """
